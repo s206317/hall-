@@ -150,7 +150,8 @@ nav a:hover {
   }
 
   .image-item {
-    margin: 40px 0;
+    margin: 0 10px;
+  padding: 30px;
   }
 }
 
@@ -305,7 +306,7 @@ footer {
   border-radius: 8px;
   font-size: 1rem;
   line-height: 1.5;
-  text-align: justify;
+  text-align: left;
   max-width: 600px;
 }
 
