@@ -42,7 +42,7 @@
               <img
                 src="haha.png"
                 alt="haha"
-                class="responsive-img shake-on-hover"
+                class="responsive-img rotate-on-hover"
                 onclick="triggerVibration()"
               />
             </a>
@@ -53,7 +53,7 @@
               <img
                 src="zzz.png"
                 alt="zzz"
-                class="responsive-img shake-on-hover"
+                class="responsive-img bounce-on-hover"
                 onclick="triggerVibration()"
               />
             </a>
@@ -66,7 +66,7 @@
               <img
                 src="bra.png"
                 alt="bra"
-                class="responsive-img shake-on-hover"
+                class="responsive-img pulse-on-hover"
                 onclick="triggerVibration()"
               />
             </a>
@@ -99,12 +99,8 @@
       <p></p>
       <div class="content">
         <p class="styled-paragraph">
-          Resan mellan digitala och fysiska världar medför nya utmaningar och
-          möjligheter. Haptisk feedback, som simulerar fysiska förnimmelser,
-          spelar en avgörande roll för att minska klyftan mellan dessa världar
-          genom att förbättra användarupplevelsen och minska kognitiv
-          belastning. Denna studie undersöker hur haptisk feedback påverkar
-          telepresence och betydelsen av användarnas attityder till ny teknik.
+          Resan mellan digitala och fysiska världar medför nya utmaningar och möjligheter. Haptisk feedback, som simulerar fysiska förnimmelser, spelar en avgörande roll för att minska klyftan mellan dessa världar genom att förbättra användarupplevelsen. 
+          Denna studie undersöker hur haptisk feedback påverkar telepresence och om användarnas attityder till ny teknik påverkar upplevelsen.
         </p>
       </div>
       <img src="hybrid.gif" alt="Animated GIF" class="gif" />
@@ -189,7 +185,7 @@
       function triggerVibration() {
         if ('vibrate' in navigator) {
           navigator.vibrate([
-          200, 100, 200
+          500, 500, 500, 500, 500, 500, 500, 500, 500, 500
           ]);
         } else {
           console.log('Vibration API not supported on this device.');
@@ -212,3 +208,50 @@
     </footer>
   </body>
 </html>
+    <section id="more" class="page" style="display: none">
+      <img src="FEEL.gif" alt="Animated GIF" class="gif" />
+      <p></p>
+      <div class="content">
+        <p class="styled-paragraph">
+          Resan mellan digitala och fysiska världar medför nya utmaningar och möjligheter. Haptisk feedback, som simulerar fysiska förnimmelser, spelar en avgörande roll för att minska klyftan mellan dessa världar genom att förbättra användarupplevelsen. 
+          Denna studie undersöker hur haptisk feedback påverkar telepresence och om användarnas attityder till ny teknik påverkar upplevelsen.
+        </p>
+      </div>
+      <img src="hybrid.gif" alt="Animated GIF" class="gif" />
+      <p></p>
+      <div class="content">
+        <p class="styled-paragraph">
+          Integrationen av den fysiska och den virtuella världen i vår digitala
+          tidsålder har skapat en hybridtillvaro. Detta kan observeras i olika
+          aspekter av livet, till exempel arbete, social interaktion,
+          underhållning, utbildning och konsumentbeteende. Människor navigerar
+          nu mellan fysiska och digitala upplevelser samtidigt, vilket innebär
+          nya utmaningar för design och teknikutveckling.
+        </p>
+      </div>
+      <img src="flow.gif" alt="Animated GIF" class="gif" />
+      <p></p>
+      <div class="content">
+        <p class="styled-paragraph">
+          Genom att använda flow-teorin och Technology Acceptance Model (TAM)
+          belyser studien hur engagemang, återkoppling och användaracceptans
+          påverkar användarupplevelsen i interaktionen mellan den digitala och
+          den fysiska världen.
+        </p>
+      </div>
+      <img src="prototyp.png" alt="Animated GIF" class="gif" />
+      <p></p>
+      <div class="content">
+        <p class="styled-paragraph">
+          En iterativ forskningsansats, baserat på forskning genom design,
+          användes för att skapa och utvärdera en prototyp som implementerar
+          haptisk feedback.
+        </p>
+      </div>
+      <img src="HANDS.gif" alt="Animated GIF" class="gif" />
+      <p></p>
+      <div class="content">
+        <p class="styled-paragraph">
+          Plattans rörelse överfördes till mini vibrationsmotorer som var
+          integrerade i ett armband som bars av den andra deltagaren. Studien
+          innebar att deltagarna placerades framför en skärm och konta
